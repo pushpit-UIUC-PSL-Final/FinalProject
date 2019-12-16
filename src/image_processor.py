@@ -36,6 +36,6 @@ def resize_image(source_dir, target_dir, width, height):
     
     
 if __name__ == "__main__":
-    #resize_image("../data/orig/benign", "../data/resized/benign", 133, 100)
-    #resize_image("../data/orig/malignant", "../data/resized/malignant", 133, 100)    
-    data = read_image("../data/resized/benign")
+    resize_image("../data/orig/benign", "../data/resized_600_450/benign", 600, 450)
+    resize_image("../data/orig/malignant", "../data/resized_600_450/malignant", 600, 450)    
+   # data = read_image("../data/resized/benign")
